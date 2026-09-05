@@ -1,6 +1,6 @@
 //! # ZenKinetic — Thermodynamic Privacy Gate for Horizen Base L3
 //!
-//! Adapts the [orkid `OrkidKineticHook`](https://github.com/jjcav84/orkid/blob/main/contracts/OrkidKineticHook.sol)
+//! Adapts the [orkid `OrkidKineticHook`](https://github.com/orkid-labs/orkid/blob/main/contracts/OrkidKineticHook.sol)
 //! thermodynamic gate from **MEV protection** to **privacy protection** on
 //! Horizen's privacy-first appchain.
 //!

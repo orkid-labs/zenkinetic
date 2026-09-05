@@ -12,7 +12,7 @@ use zenkinetic::{PrivacyGate, TransactionProfile};
 #[command(
     name = "zenkinetic",
     about = "Thermodynamic privacy gate for Horizen Base L3 — score transaction privacy via negentropy",
-    long_about = "Adapts the orkid KineticHook thermodynamic gate from MEV protection to privacy protection.\n\nPrivacy-preserving transactions (ZK proofs) get lower fees.\nDeanonymizing transactions get higher fees.\n\nPowered by the negentropy physics engine: https://github.com/jjcav84/negentropy"
+    long_about = "Adapts the orkid KineticHook thermodynamic gate from MEV protection to privacy protection.\n\nPrivacy-preserving transactions (ZK proofs) get lower fees.\nDeanonymizing transactions get higher fees.\n\nPowered by the negentropy physics engine: https://github.com/orkid-labs/negentropy"
 )]
 struct Cli {
     #[command(subcommand)]
@@ -69,7 +69,7 @@ fn main() {
                 "latency_decay": gate.latency_decay,
                 "formula": "energy = confidence × √(depth × timing) × latency_decay × (1 − cost)",
                 "origin": "orkid OrkidKineticHook → ZenKinetic privacy gate",
-                "engine": "negentropy (https://github.com/jjcav84/negentropy)",
+                "engine": "negentropy (https://github.com/orkid-labs/negentropy)",
             };
             println!("{}", serde_json::to_string_pretty(&result).unwrap());
         }

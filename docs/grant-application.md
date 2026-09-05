@@ -91,19 +91,19 @@ ZEN is used for:
 
 ZenKinetic is part of a proven ecosystem of privacy-preserving ZK projects:
 
-- [negentropy](https://github.com/jjcav84/negentropy) — The shared physics
+- [negentropy](https://github.com/orkid-labs/negentropy) — The shared physics
   engine (47 tests, production-ready)
-- [orkid](https://github.com/jjcav84/orkid) — Origin of the thermodynamic
+- [orkid](https://github.com/orkid-labs/orkid) — Origin of the thermodynamic
   gate concept (195+ live fills on Base/Ethereum). **Private repo — access
   available for Thrive Protocol reviewers and other appropriate cases on
   request.** Theoretical foundation published as preprint: ["Negative EV
   per Unit Time as Blockchain Inefficiency"](https://www.researchgate.net/publication/399474539_Negative_EV_per_Unit_Time_as_Blockchain_Inefficiency)
   — [Jacob Cavazos, ResearchGate](https://www.researchgate.net/profile/Jacob-Cavazos).
-- [zk-age](https://github.com/jjcav84/zk-age) — Privacy-preserving age
+- [zk-age](https://github.com/orkid-labs/zk-age) — Privacy-preserving age
   verification (negentropy-powered)
-- [zk-attest](https://github.com/jjcav84/zk-attest) — ZK attestations on
+- [zk-attest](https://github.com/orkid-labs/zk-attest) — ZK attestations on
   Hedera (negentropy-powered)
-- [zk-ballot](https://github.com/jjcav84/zk-ballot) — Anonymous on-chain
+- [zk-ballot](https://github.com/orkid-labs/zk-ballot) — Anonymous on-chain
   voting with Halo2 (negentropy-powered)
 
 All sibling projects depend on `negentropy` as a shared library, creating
@@ -221,7 +221,7 @@ privacy infrastructure:
 
 ## References
 
-- [negentropy](https://github.com/jjcav84/negentropy) — The physics of
+- [negentropy](https://github.com/orkid-labs/negentropy) — The physics of
   information extraction
 - orkid OrkidKineticHook.sol — Origin of the thermodynamic gate (private repo)
 - [orkid blog: Blockchain Thermodynamics](https://www.orkidlabs.com/blog/blockchain-thermodynamics-negentropy-mev-physics/)

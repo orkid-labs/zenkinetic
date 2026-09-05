@@ -10,9 +10,9 @@
 > **By [Orkid Labs](https://www.orkidlabs.com)** — privacy-first crypto engineering
 
 A privacy-first transaction gating system for Horizen's Base L3 appchain,
-powered by the [negentropy](https://github.com/jjcav84/negentropy) physics
+powered by the [negentropy](https://github.com/orkid-labs/negentropy) physics
 engine. ZenKinetic adapts the thermodynamic gate concept from orkid's
-[`OrkidKineticHook`](https://github.com/jjcav84/orkid/blob/main/contracts/OrkidKineticHook.sol)
+[`OrkidKineticHook`](https://github.com/orkid-labs/orkid/blob/main/contracts/OrkidKineticHook.sol)
 — converting it from **MEV protection** to **privacy protection**.
 
 > **Note:** The orkid repository is private. Access can be provided to
@@ -25,7 +25,7 @@ engine. ZenKinetic adapts the thermodynamic gate concept from orkid's
 [![License: MIT](https://img.shields.io/badge/License-MIT-a78bfa.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/Rust-1.70%2B-a78bfa.svg)](https://www.rust-lang.org/)
 [![Horizen](https://img.shields.io/badge/Horizen-Base%20L3-ff6b35.svg)](https://horizen.org)
-[![negentropy](https://img.shields.io/badge/powered%20by-negentropy-a78bfa.svg)](https://github.com/jjcav84/negentropy)
+[![negentropy](https://img.shields.io/badge/powered%20by-negentropy-a78bfa.svg)](https://github.com/orkid-labs/negentropy)
 
 ---
 
@@ -98,7 +98,7 @@ ZEN staking grants:
           │
    ┌──────▼──────────────────────────────────────┐
    │           negentropy crate                   │
-   │   https://github.com/jjcav84/negentropy      │
+   │   https://github.com/orkid-labs/negentropy      │
    └─────────────────────────────────────────────┘
 ```
 
@@ -155,7 +155,7 @@ Example output:
   "kind": "anonymous-vote",
   "stake_tier": "pro",
   "formula": "energy = confidence × √(depth × timing) × latency_decay × (1 − cost)",
-  "engine": "negentropy (https://github.com/jjcav84/negentropy)"
+  "engine": "negentropy (https://github.com/orkid-labs/negentropy)"
 }
 ```
 
