@@ -28,4 +28,4 @@ categories = ["cryptography", "cryptography::cryptocurrencies"]
 [dependencies]
 serde = { workspace = true }
 serde_json = { workspace = true }
-negentropy = { git = "https://github.com/orkid-labs/negentropy.git" }
+negentropy = { version = "0.1.0", package = "orkid-negentropy" }
