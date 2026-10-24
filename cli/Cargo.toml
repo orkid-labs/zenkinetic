@@ -6,13 +6,15 @@ authors.workspace = true
 license.workspace = true
 repository.workspace = true
 description = "CLI for ZenKinetic — score transaction privacy and gate fees on Horizen"
+keywords = ["horizen", "zen", "privacy", "cli", "negentropy"]
+categories = ["cryptography::cryptocurrencies", "command-line-utilities"]
 
 [[bin]]
 name = "zenkinetic"
 path = "src/main.rs"
 
 [dependencies]
-zenkinetic = { path = ".." }
+zenkinetic = { path = "..", version = "0.1.0" }
 serde = { workspace = true }
 serde_json = { workspace = true }
 clap = { version = "4", features = ["derive"] }

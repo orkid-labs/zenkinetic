@@ -235,3 +235,18 @@ systems. See our other work at [orkidlabs.com](https://www.orkidlabs.com).
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+## Part of Orkid Labs
+
+**zenkinetic** — Thermodynamic privacy gate for Horizen Base L3 — negentropy-scored confidential transactions with ZEN utility.
+
+- Install: `cargo install zenkinetic`
+- Package: https://crates.io/crates/zenkinetic
+- API docs: https://docs.rs/zenkinetic
+- Docs: https://docs.orkidlabs.xyz/packages/zenkinetic
+
+Related Orkid projects: [negentropy](https://github.com/orkid-labs/negentropy), [horizen-attest](https://github.com/orkid-labs/horizen-attest), [horizen-age](https://github.com/orkid-labs/horizen-age), [horizen-ballot](https://github.com/orkid-labs/horizen-ballot)
+
+Orkid Labs builds gasless, MEV-protected swap routing and agent-native DeFi infrastructure — [orkidlabs.xyz](https://orkidlabs.xyz) · [@orkid-labs on npm](https://www.npmjs.com/org/orkid-labs) · [github.com/orkid-labs](https://github.com/orkid-labs)
